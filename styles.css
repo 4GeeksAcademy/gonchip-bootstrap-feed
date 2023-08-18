@@ -1,0 +1,8 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #252627;
+}
+ .card {
+    border: 0px;
+    margin-right: 15px;
+ }
