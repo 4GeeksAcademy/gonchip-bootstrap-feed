@@ -1,8 +1,44 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
     color: #252627;
 }
  .card {
     border: 0px;
     margin-right: 15px;
  }
+
+ .nav-link i {
+    font-size: 18px; 
+    margin-right: 5px; 
+    color: #000; 
+  }
+
+  
+  .nav-link.active i {
+    color: #0019fd; 
+    background-color: none;
+  }
+
+  
+  .nav-link:not(.active) i {
+    color: #6c757d; 
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: none;
+  }
+
+  
+  .separator-line {
+    border-top: 1px solid hsl(210, 13%, 85%); 
+  }
+
+  .ml-3 {
+    padding-left: 18px;
+    padding-bottom: 20px;
+  }
+
+  .btn-light {
+    
+  }
+
