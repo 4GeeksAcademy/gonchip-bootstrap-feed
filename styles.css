@@ -42,3 +42,10 @@ body {
     border-color: #c4c8cc;
   }
 
+  .card-img, .card-img-top {
+   border-radius: 0%;
+}
+
+div.row {
+  margin-top: 8px;
+}
